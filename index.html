@@ -6,72 +6,94 @@
   <title>Mohammad Sohaib | Cybersecurity Portfolio</title>
   <style>
     body {
-      margin: 0; font-family: Arial, sans-serif; line-height: 1.6;
-      background: #0d1117; color: #c9d1d9;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #0d1117;
+      color: #c9d1d9;
     }
     header {
-      background: linear-gradient(135deg, #161b22, #0d1117);
-      padding: 50px 20px; text-align: center;
+      text-align: center;
+      margin-bottom: 20px;
     }
-    header h1 {
-      margin: 0; font-size: 2.5rem; color: #58a6ff;
-    }
-    header p {
-      margin: 10px 0 0; font-size: 1.2rem; color: #8b949e;
+    header img {
+      max-width: 100%;
+      border-radius: 10px;
     }
     nav {
-      background: #161b22; padding: 10px; text-align: center;
-      position: sticky; top: 0;
+      background: #161b22;
+      padding: 10px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
     }
     nav a {
-      margin: 0 15px; color: #58a6ff; text-decoration: none; font-weight: bold;
+      margin: 0 15px;
+      color: #58a6ff;
+      text-decoration: none;
+      font-weight: bold;
     }
     nav a:hover { text-decoration: underline; }
     section {
-      padding: 40px 20px; max-width: 900px; margin: auto;
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
     }
     h2 {
-      color: #58a6ff; margin-bottom: 20px;
+      color: #58a6ff;
+      margin-bottom: 20px;
     }
     ul.projects {
-      list-style: none; padding: 0;
+      list-style: none;
+      padding: 0;
     }
     ul.projects li {
-      margin-bottom: 15px; padding: 10px;
-      background: #161b22; border-radius: 6px;
+      margin-bottom: 15px;
+      padding: 10px;
+      background: #161b22;
+      border-radius: 6px;
     }
     ul.projects li a {
-      color: #c9d1d9; font-weight: bold; text-decoration: none;
+      color: #c9d1d9;
+      font-weight: bold;
+      text-decoration: none;
     }
     ul.projects li a:hover { color: #58a6ff; }
     footer {
-      text-align: center; padding: 20px;
-      background: #161b22; margin-top: 40px;
+      text-align: center;
+      padding: 20px;
+      background: #161b22;
+      margin-top: 40px;
     }
     footer a { color: #58a6ff; text-decoration: none; }
   </style>
 </head>
 <body>
+  <!-- Banner -->
   <header>
-    <h1>👋 Hi, I'm Mohammad Sohaib</h1>
-    <p>Cybersecurity & Networking Student | Ethical Hacking & Forensics Enthusiast</p>
+    <img src="banner.png" alt="Portfolio Banner">
   </header>
 
+  <!-- Navigation -->
   <nav>
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
+    <a href="#profile">Profile Repo</a>
     <a href="#contact">Contact</a>
   </nav>
 
+  <!-- About -->
   <section id="about">
     <h2>🚀 About Me</h2>
     <p>
-      I am a final year <strong>BSc (Hons) Networks and Cyber Security</strong> student,
+      I am <strong>Mohammad Sohaib</strong>, a <strong>BSc (Hons) Networks and Cyber Security</strong> student,
       passionate about <strong>ethical hacking, penetration testing, and digital forensics</strong>.
       I enjoy building projects, practicing labs, and sharing my learning journey.
     </p>
   </section>
 
+  <!-- Projects -->
   <section id="projects">
     <h2>📂 Projects</h2>
     <ul class="projects">
@@ -82,6 +104,16 @@
     </ul>
   </section>
 
+  <!-- Profile Repo Highlight -->
+  <section id="profile">
+    <h2>⭐ My Main GitHub Profile Repo</h2>
+    <p>
+      This is the special repository that powers my GitHub profile page:  
+      <a href="https://github.com/M-Sohaib-cyber/M-Sohaib-cyber">👉 M-Sohaib-cyber</a>
+    </p>
+  </section>
+
+  <!-- Contact -->
   <section id="contact">
     <h2>📫 Contact Me</h2>
     <p>
@@ -91,6 +123,7 @@
     </p>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>⭐ Thanks for visiting my portfolio!</p>
   </footer>
